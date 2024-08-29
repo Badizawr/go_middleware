@@ -22,7 +22,7 @@ go run cmd/mw-test-task/main.go
 
 ```
 
-curl --location --request GET '127.0.0.1:8080/status' \
+curl --location --request GET '127.0.0.1:8050/status' \
 --header 'User-Role: admin'
 
 ```
