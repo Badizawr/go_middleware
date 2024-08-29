@@ -1,10 +1,7 @@
 #Build echo middlewar
 
-=
-
 ##Task
 
--
 
 You have 1 hour to solve the task. If you are lucky enough and have time left, please try to optimise your solution.
 
