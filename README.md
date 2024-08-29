@@ -1,6 +1,11 @@
-Build echo middleware
+#Build echo middlewar
 
-Task
+=
+
+##Task
+
+-
+
 You have 1 hour to solve the task. If you are lucky enough and have time left, please try to optimise your solution.
 
 Build a middleware using echo framework
@@ -8,8 +13,19 @@ First of all, you should create a handler which sends how many days left until 1
 
 Secondly, build a middleware, which checks HTTP header User-Role presents and contains admin and prints red button user detected to the console (using default log package or any 3rd party) if so.
 
-Run
+###Run
+
+```
+
 go run cmd/mw-test-task/main.go
-Test
-curl --location --request GET '127.0.0.1:8050/status' \
+
+```
+
+###Test
+
+```
+
+curl --location --request GET '127.0.0.1:8080/status' \
 --header 'User-Role: admin'
+
+```
